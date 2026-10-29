@@ -1,0 +1,16 @@
+🚀 Project Update: Python OOP Banking System
+
+As part of my Object-Oriented Python learning, I built a command-line Banking System using Python.
+
+Key features:
+✅ Account creation
+✅ Deposit and withdrawal operations
+✅ Balance checking
+✅ Transaction history
+✅ Input validation
+
+This project helped me practice OOP concepts such as classes, objects, encapsulation, inheritance, and methods.
+
+I’m continuing to improve my Python skills by building practical projects and learning how to write clean, organized code.
+
+#Python #ObjectOrientedProgramming #OOP #PythonProjects #LearningByDoing #Programming

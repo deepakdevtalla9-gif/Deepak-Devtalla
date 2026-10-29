@@ -1,15 +1,51 @@
+# Python OOP Banking System
 
-## 🌐 Socials:
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/Deepak Devtalla) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_deepak8485) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Deepak Devtalla) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:deepakdevtalla9@gmail.com) 
+A beginner-friendly command-line banking project built with Python and Object-Oriented Programming (OOP).
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=Deepak Devtalla&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=Deepak Devtalla&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=Deepak Devtalla&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+## Features
+- Create savings accounts
+- Check current balance
+- Deposit money
+- Withdraw money with insufficient-balance checks
+- View transaction history with timestamps
+- Validate account names, amounts, and duplicate account numbers
+- Demonstrate classes, objects, encapsulation, inheritance, and methods
 
----
-[![](https://komarev.com/ghpvc/?username=Deepak Devtalla&icon=0&color=0)](https://visitcount.itsvg.in)
+## Requirements
+- Python 3.9 or later
+- No third-party packages required
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## Run the project
+1. Download or clone this repository.
+2. Open a terminal in the project folder.
+3. Run:
+
+```bash
+python banking_system.py
+```
+
+On some Windows systems, use `py banking_system.py`.
+
+## How to use
+Choose an option from the menu. Create an account first, then use its account number to check balance, deposit, withdraw, or view transaction history.
+
+## OOP concepts used
+- **Class and object:** `BankAccount`, `SavingsAccount`, `BankingSystem`, and `Transaction`
+- **Encapsulation:** the balance is stored in the private attribute `__balance`
+- **Inheritance:** `SavingsAccount` inherits from `BankAccount`
+- **Abstraction:** the menu gives users simple actions without requiring them to manage internal transaction records
+- **Methods:** `deposit()`, `withdraw()`, `show_transactions()`, and `create_account()`
+
+## Project structure
+```text
+Python_OOP_Banking_System/
+├── banking_system.py
+├── README.md
+├── class_diagram.mmd
+├── docs/
+│   └── design.md
+└── linkedin_post.txt
+```
+
+## Important note
+This is an educational demonstration, not real banking software. It does not use a database, authentication, encryption, or real payment services. Account data is lost when the program exits.
